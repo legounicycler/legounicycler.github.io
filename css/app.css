@@ -72,3 +72,9 @@ img {
 img, .callout, .buy-buttons .button, .top-bar {
 box-shadow: 0px 0px 10px 0px rgba(10,10,10,0.25);
 }
+
+@media screen and (max-width: 64em) {
+img {
+max-height: 50vh;
+}
+}
