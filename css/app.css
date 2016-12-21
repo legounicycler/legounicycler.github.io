@@ -73,6 +73,23 @@ img, .callout, .buy-buttons .button, .top-bar {
 box-shadow: 0px 0px 10px 0px rgba(10,10,10,0.25);
 }
 
+#fb {
+background-color: #3b5998;
+vertical-align: middle;
+text-align: left;
+}
+
+#fb span {
+vertical-align: middle;
+}
+
+#icon {
+max-width: 1.5em;
+vertical-align: middle;
+margin-right: 1em;
+text-align: left;
+}
+
 @media screen and (max-width: 64em) {
 img {
 max-height: 50vh;
