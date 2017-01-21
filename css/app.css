@@ -90,6 +90,11 @@ margin-right: 1em;
 text-align: left;
 }
 
+#topbar {
+	max-height: 75px;
+	box-shadow: none;
+	border: none;
+
 @media screen and (max-width: 64em) {
 img {
 max-height: 50vh;
