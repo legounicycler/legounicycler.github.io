@@ -20,7 +20,21 @@
     float: right;
 }
 
-#mail-button {
+#mc-embedded-subscribe {
     margin-left: 1em;
     color: white !important;
+}
+
+#img2 {
+    background-position: top;
+}
+
+#img3 {
+    background-position: center -50px;
+}
+
+@media only screen and (max-width: 800px){
+    #img3 {
+        background-position: center;
+    }
 }
