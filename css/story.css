@@ -1,0 +1,28 @@
+#img1 {
+    background-position: center -18px;
+}
+
+#img2 {
+    background-position: top;
+}
+
+.author-image {
+    height: 200px;
+    margin: 10px 0px;
+}
+
+.author-name {
+    font-family: "Tungsten", sans-serif;
+    margin: 0;
+    padding-top: 10px;
+}
+
+.card p {
+    font-size: 1.5em;
+}
+
+@media only screen and (max-width: 1070px){
+    #img1 {
+    background-position: center;
+}
+}

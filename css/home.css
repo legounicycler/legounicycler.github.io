@@ -1,0 +1,26 @@
+.slider h5 {
+    text-shadow: 4px 3px 10px #000000,
+                 0px 0px 10px #000000,
+                 0px 3px 10px #000000,
+                 4px 0px 10px #000000;
+}
+
+.slider {
+    text-shadow: 4px 3px 10px #000000;
+}
+
+.parallax-content {
+    color: white;
+    width: 100%;
+    margin-right: 5%;
+    text-shadow: 1px 1px 10px #000000;
+}
+
+#buy-it {
+    float: right;
+}
+
+#mail-button {
+    margin-left: 1em;
+    color: white !important;
+}
