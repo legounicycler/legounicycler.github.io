@@ -10,7 +10,7 @@
 .brand-logo {
     font-size: 250%;
     margin-left: 10%;
-    font-family: "Tungsten", sans-serif;
+    font-family: "Tungsten-Bold", sans-serif;
 }
 
 /*@font-face {
@@ -18,13 +18,13 @@
   src: url(fonts/Tungsten-Semibold.otf);
 }*/
 
-@font-face {font-family: "Tungsten";
-  src: url("fonts/561f38b1f4570de0fb8a39d691ab058c.eot"); /* IE9*/
-  src: url("fonts/561f38b1f4570de0fb8a39d691ab058c.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-  url("fonts/561f38b1f4570de0fb8a39d691ab058c.woff2") format("woff2"), /* chrome、firefox */
-  url("fonts/561f38b1f4570de0fb8a39d691ab058c.woff") format("woff"), /* chrome、firefox */
-  url("fonts/561f38b1f4570de0fb8a39d691ab058c.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
-  url("fonts/561f38b1f4570de0fb8a39d691ab058c.svg#Tungsten-Bold") format("svg"); /* iOS 4.1- */
+@font-face {font-family: "Tungsten-Bold";
+  src: url("561f38b1f4570de0fb8a39d691ab058c.eot"); /* IE9*/
+  src: url("561f38b1f4570de0fb8a39d691ab058c.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+  url("561f38b1f4570de0fb8a39d691ab058c.woff2") format("woff2"), /* chrome、firefox */
+  url("561f38b1f4570de0fb8a39d691ab058c.woff") format("woff"), /* chrome、firefox */
+  url("561f38b1f4570de0fb8a39d691ab058c.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url("561f38b1f4570de0fb8a39d691ab058c.svg#Tungsten-Bold") format("svg"); /* iOS 4.1- */
 }
 
 .nav-wrapper {
