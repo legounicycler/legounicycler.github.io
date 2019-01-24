@@ -85,8 +85,15 @@ main {
     }
 }
 
-@media only screen and (max-width: 370px){
+@media only screen and (max-width: 600px){
     nav .brand-logo {
         font-size: 1.8rem !important;
+    }
+}
+
+@media only screen and (max-width: 425px){
+    nav .brand-logo {
+        font-size: 1.5rem !important;
+        position: relative;
     }
 }
