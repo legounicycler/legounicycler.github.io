@@ -1,0 +1,86 @@
+/*  Dark Red #5c1a24,
+    light red: #b43a31,
+    beige: #f4f0d9,
+    orange: #e75624,
+    dark brown: #392219,
+    light brown: #88784b,
+    darker brown: #341e16,
+    dark beige: #c2ba8f  */
+
+.brand-logo {
+    font-size: 250%;
+    margin-left: 10%;
+    font-family: "Tungsten", sans-serif;
+}
+
+@font-face {
+  font-family: Tungsten;
+  src: url(fonts/Tungsten-Semibold.otf);
+}
+
+.nav-wrapper {
+    background-color: #5c1a24;
+}
+
+#main-logo {
+    width: 70%;
+}
+
+.button {
+  border: 2px solid white;
+  color: white;
+  text-align: center;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+  text-shadow: none;
+}
+
+
+.button:hover {
+  background-color: white;
+  color: black;
+}
+
+footer img {
+    height: 40px;
+    width: 40px;
+    display: block;
+    margin-top: 15px;
+}
+
+
+.page-footer{
+    background-color: #5c1a24;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+.card-action a {
+    color: #b43a31 !important;
+}
+
+.card-action a:hover {
+    color: #5c1a24 !important;
+}
+
+@media only screen and (max-width: 993px){
+    .brand-logo {
+        margin: 0;
+    }
+}
+
+@media only screen and (max-width: 370px){
+    nav .brand-logo {
+        font-size: 1.8rem !important;
+    }
+}
