@@ -38,3 +38,14 @@
         background-position: center;
     }
 }
+
+
+@font-face {font-family: 'Tungsten';
+  src: url("/fonts/Tungsten.eot"); /* IE9*/
+  src: url("/fonts/Tungsten.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+  url("/fonts/Tungsten.woff2") format("woff2"), /* chrome、firefox */
+  url("/fonts/Tungsten.woff") format("woff"), /* chrome、firefox */
+  url("/fonts/Tungsten.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url("/fonts/tungsten.svg#Tungsten") format("svg"); /* iOS 4.1- */
+  src: url("/fonts/Tungsten-Semibold.otf");
+}
