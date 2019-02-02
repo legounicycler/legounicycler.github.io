@@ -72,6 +72,7 @@
           <div class="card">
             <div class="card-content">
               <div class="row center-align"><h4>Leave us a message.</h4></div>
+              <form method="POST" action="https://formspree.io/info@sonoftimechronicles.com">
                 <div class="row">
                   <div class="input-field col m6 s12">
                     <input id="first_name" type="text" class="validate">
@@ -81,27 +82,30 @@
                     <input id="last_name" type="text" class="validate">
                     <label for="last_name">Last Name</label>
                   </div>
-              </div>
-              <div class="row">
-                <div class="input-field col s12">
-                  <i class="material-icons prefix">mail</i>
-                  <input id="email" type="email" class="validate" required>
-                  <label for="email">Email</label>
-                  <span class="helper-text" data-error="Please enter a valid email address."></span>
                 </div>
-              </div>
-              <div class="row">
-                <div class="input-field col s12">
-                  <i class="material-icons prefix">message</i>
-                  <textarea id="message" class="materialize-textarea"></textarea>
-                  <label for="message">Message</label>
+                <div class="row">
+                  <div class="input-field col s12">
+                    <i class="material-icons prefix">mail</i>
+                    <input id="email" type="email" class="validate" required>
+                    <label for="email">Email</label>
+                    <span class="helper-text" data-error="Please enter a valid email address."></span>
+                  </div>
                 </div>
-              </div>
-              <div class="row">
-                <div class="col s12 m12 l6 offset-l6">
-                  <a class="waves-effect waves-dark btn red darken-4 white-text"><i class="material-icons right">arrow_forward</i>Send</a>
+                <div class="row">
+                  <div class="input-field col s12">
+                    <i class="material-icons prefix">message</i>
+                    <textarea id="message" class="materialize-textarea"></textarea>
+                    <label for="message">Message</label>
+                  </div>
                 </div>
-              </div>
+                <div class="row">
+                  <div class="col s12 m12 l6 offset-l6">
+                    <button class="btn waves-effect waves-dark red darken-4 white-text" type="submit">Submit
+                      <i class="material-icons right">arrow_forward</i>
+                    </button>
+                  </div>
+                </div>
+              </form>
             </div>
           </div>
         </div>
