@@ -41,11 +41,18 @@ footer img {
     height: 40px;
     width: 40px;
     display: block;
-    margin-top: 15px;
 }
 
 .page-footer{
     background-color: #5c1a24;
+}
+
+.page-footer .divider {
+  margin-bottom: 15px;
+}
+
+.page-footer .row {
+  margin-bottom: 0px;
 }
 
 body {
@@ -64,6 +71,15 @@ main {
 
 .card-action a:hover {
     color: #5c1a24 !important;
+}
+
+#anthony-logo {
+  height: 40px;
+  width: 40px;
+}
+
+#anthony-logo img {
+  margin-top: 0;
 }
 
 @media only screen and (max-width: 992px){
