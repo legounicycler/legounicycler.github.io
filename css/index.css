@@ -43,6 +43,10 @@ footer img {
     display: block;
 }
 
+.icon-link {
+  display: inline-block;
+}
+
 .page-footer{
     background-color: #5c1a24;
 }
